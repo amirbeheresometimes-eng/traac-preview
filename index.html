@@ -1406,7 +1406,7 @@ footer.site{background:#2f3a36}
 .biz{gap:0}
 .biz .biz-top{font-size:clamp(34px,4.6vw,58px);line-height:1.05;text-transform:none;letter-spacing:-.01em;color:#fff}
 .biz .biz-main{font-size:clamp(34px,4.6vw,58px);line-height:1.05}
-</style>
+.spot img{height:100%;width:100%;object-fit:cover}</style>
 <div class="util"><div class="wrap">
   <span>Southlake · Fort Worth · Allergy drops by telemedicine across Texas</span>
   <span class="links"><a href="https://traac.modmedapp.com/ema/web/auth/login/#/auth/patient-login" target="_blank" rel="noopener">Patient Portal</a><a href="https://traac.modmedapp.com/ema/pay/payonline" target="_blank" rel="noopener">Pay Bill</a><span>Call <b class="tnum">(817) 421-0770</b></span></span>
@@ -1665,24 +1665,10 @@ footer.site{background:#2f3a36}
     <div class="row"><span class="pill teal">Several hundred patients treated</span><span class="pill on-dark">Infants through adults</span></div>
   </div></div>
   <nav class="subnav" aria-label="On this page"><div class="wrap">
-    <a href="#pathways">Treatment pathways</a><a href="#food-doctor">Your specialist</a><a href="#goals">Full OIT goals</a><a href="#how-oit">How OIT works</a><a href="#dosing">Dosing over time</a><a href="#oit-fit">Is OIT right for me?</a><a href="#food-faq">Questions</a>
+    <a href="#food-doctor">Your specialist</a><a href="#pathways">Treatment pathways</a><a href="#goals">Full OIT goals</a><a href="#how-oit">How OIT works</a><a href="#dosing">Dosing over time</a><a href="#oit-fit">Is OIT right for me?</a><a href="#food-faq">Questions</a>
   </div></nav>
 
-  <div class="block" id="pathways">
-    <div class="wrap">
-      <div class="sec-head"><span class="eyebrow">Treatment options at a glance</span><h2>Six pathways, one plan built around you</h2><p class="lead">Hover over or tap a pathway for details.</p></div>
-      <div class="filter-bar">
-        <span class="q">Highlight for</span>
-        <div class="tog" id="ageTog"></div>
-        <span class="sep" aria-hidden="true"></span>
-        <div class="tog" id="goalTog"></div>
-        <button class="btn ghost sm" id="pathReset" type="button">Clear</button>
-      </div>
-      <div class="ptiles" id="pathTabs"></div>
-    </div>
-  </div>
-
-  <div class="block flush-top" id="food-doctor">
+  <div class="block" id="food-doctor">
     <div class="wrap">
       <div class="spot">
         <img src="img/hero.jpg" alt="Dr. Ali Shakouri in aqua scrubs with a stethoscope, arms crossed" loading="lazy">
@@ -1696,6 +1682,20 @@ footer.site{background:#2f3a36}
       </div>
     </div>
   </div>
+  <div class="block flush-top" id="pathways">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Treatment options at a glance</span><h2>Six pathways, one plan built around you</h2><p class="lead">Hover over or tap a pathway for details.</p></div>
+      <div class="filter-bar">
+        <span class="q">Highlight for</span>
+        <div class="tog" id="ageTog"></div>
+        <span class="sep" aria-hidden="true"></span>
+        <div class="tog" id="goalTog"></div>
+        <button class="btn ghost sm" id="pathReset" type="button">Clear</button>
+      </div>
+      <div class="ptiles" id="pathTabs"></div>
+    </div>
+  </div>
+
   <div class="block band" id="goals">
     <div class="wrap">
       <div class="sec-head"><span class="eyebrow">Full OIT</span><h2>Typical Full OIT goals</h2><p class="lead">Tolerate a full serving, and usually considerably more. Several foods can often be treated at once.</p></div>
