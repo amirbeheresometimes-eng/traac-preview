@@ -1351,6 +1351,57 @@ input,select,textarea{background-color:color-mix(in srgb,var(--aqua) 4%,var(--su
 .mcard .fr .msn{width:78%;height:auto;align-self:center;justify-self:center;margin:auto;filter:drop-shadow(0 6px 6px rgba(38,49,92,.18))}
 </style>
 <style>.game canvas{height:440px;background:#cfefff}@media (max-width:640px){.game canvas{height:420px}}</style>
+<style>
+/* TRAAC brand palette, taken from traac.org: blue #004889, teal #008c82, green #00a972, charcoal #212934, plus warm beige */
+:root{
+  --blue:#004889; --teal:#008c82; --teal-2:#00a39a; --aqua:#3fbfb2; --leaf:#78b843; --gold:#d9a441;
+  --bg:#f7f2ea; --surface:#fffdf9; --surface-2:#efe6d8; --fg:#212934; --muted:#5b5f68; --line:#e2d6c3;
+  --sand:#c9ae86; --tan:#8a6c47;
+  --shadow:0 1px 2px rgba(74,58,36,.06),0 14px 34px -16px rgba(74,58,36,.25);
+}
+[data-page]{background:
+  radial-gradient(1000px 600px at 0% 18%,rgba(0,140,130,.07),transparent 70%),
+  radial-gradient(900px 560px at 100% 46%,rgba(201,174,134,.18),transparent 70%),
+  radial-gradient(1000px 600px at 0% 78%,rgba(120,184,67,.07),transparent 70%),
+  radial-gradient(900px 560px at 100% 96%,rgba(0,72,137,.06),transparent 70%)}
+header.site{background:color-mix(in srgb,#fffdf9 92%,transparent)}
+.util{background:#008c82;color:#e9fbf8}
+.util b,.util a{color:#fff}
+.btn.primary{background:#008c82;border-color:#008c82}
+.btn.primary:hover{background:#00756d}
+.subnav{background:linear-gradient(90deg,#f3ebdf,#fffdf9 50%,#f3ebdf)}
+.cta-band{background:linear-gradient(120deg,#004889,#008c82)}
+footer.site{background:#212934;color:#c9ccd1}
+.months button[aria-pressed="true"]{background:#004889;border-color:#004889}
+.fab{background:#004889}
+.dcard .tagline{color:#004889}
+.ofA-tabs button[aria-selected="true"]{color:#004889}
+.bldg-inset img{border-color:#e2d6c3}
+.kit-visual{background:radial-gradient(120% 90% at 50% 30%,#0a6f8a 0%,#004889 75%)}
+.st-navy{background:linear-gradient(140deg,#1d6fb5,#004889)}
+.texas,.spot,.sum,.mail-promo,footer.site,.shots .col.hl,.cta-band,.quote-cta,.kit-visual,.util,.fab{--on-ink:#ffffff;--on-ink-muted:#d3e6ea}
+footer.site a,footer.site h4,footer.site b{color:#fff}
+footer.site p,footer.site li,footer.site span{color:#c9ccd1}
+.quote-cta{background:linear-gradient(140deg,#004889,#008c82)}
+/* Final: TRAAC green #008c82 (their top bar / buttons) as the primary color, with beige */
+:root{--ink:#008c82;--ink-2:#007a72;--on-ink:#ffffff;--on-ink-muted:#e3f4f1;--teal:#008c82;--teal-2:#00a39a;--aqua:#7fd3c8}
+.hero,.page-hero,.s2-band{background:radial-gradient(900px 560px at 88% -10%,rgba(255,255,255,.16) 0%,rgba(255,255,255,0) 60%),radial-gradient(800px 520px at 0% 110%,rgba(0,0,0,.10) 0%,transparent 70%),#008c82}
+.hero .eyebrow,.page-hero .eyebrow,.biz .biz-top{color:#f1e6d3}
+.trust svg{color:#f1e6d3}
+.hero .btn.light,.page-hero .btn.light{background:#f1e6d3;color:#00594f;border-color:#f1e6d3}
+.hero .btn.light:hover,.page-hero .btn.light:hover{background:#fff}
+.texas,.spot,.sum,.shots .col.hl,.mail-promo,.quote-cta,.cta-band{background:#008c82}
+.kit-visual{background:radial-gradient(120% 90% at 50% 30%,#00a39a 0%,#007a72 75%)}
+.s2-c{background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.06));border-color:rgba(255,255,255,.25)}
+.s2-n em{color:#f1e6d3}.s2-c{--c2:#f1e6d3}
+.ofA-label,.msc-chip{background:rgba(0,70,64,.6)}
+.ofA-tabs button[aria-selected="true"]{color:#00594f}
+.mail-ribbon{background:#007a72}
+.util{background:#00756d}
+.btn.primary{background:#008c82;border-color:#008c82}
+.months button[aria-pressed="true"],.fab{background:#008c82;border-color:#008c82}
+footer.site{background:#2f3a36}
+</style>
 <div class="util"><div class="wrap">
   <span>Southlake · Fort Worth · Allergy drops by telemedicine across Texas</span>
   <span class="links"><a href="https://traac.modmedapp.com/ema/web/auth/login/#/auth/patient-login" target="_blank" rel="noopener">Patient Portal</a><a href="https://traac.modmedapp.com/ema/pay/payonline" target="_blank" rel="noopener">Pay Bill</a><span>Call <b class="tnum">(817) 421-0770</b></span></span>
